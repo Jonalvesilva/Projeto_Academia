@@ -9,7 +9,7 @@ export default function Aula() {
       <div>
         <h2 className="text-3xl pb-8">Nossas Modalidades</h2>
       </div>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 mb-12">
+      <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 mb-12">
         {modalidadesAcademia.map((data) => {
           return (
             <div

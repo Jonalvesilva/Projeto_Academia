@@ -80,3 +80,22 @@ export const modalidadesAcademia = [
     imagem: "./modalidades/zumba.jpg",
   },
 ];
+
+export const experienciaGym = [
+  {
+    desc: "Somos a academia mais completa do Rio de Janeiro.",
+    url: "./svg/halter.svg",
+  },
+  {
+    desc: "Mais de 10 modalidades para você.",
+    url: "./svg/cycle.svg",
+  },
+  {
+    desc: "Nossos personais são altamente qualificados.",
+    url: "./svg/bag.svg",
+  },
+  {
+    desc: "Somos focados e obcecados para te ajudar ter seu resultado.",
+    url: "./svg/run.svg",
+  },
+];
