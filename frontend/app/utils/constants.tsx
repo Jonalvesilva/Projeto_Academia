@@ -45,3 +45,38 @@ export const linksSideNavbar = [
     icon: <SiOpenaigym size={30} />,
   },
 ];
+
+export const modalidadesAcademia = [
+  {
+    nome: "Musculação",
+    imagem: "./modalidades/musculacao.jpg",
+  },
+  {
+    nome: "CrossFit",
+    imagem: "./modalidades/crossfit.jpg",
+  },
+  {
+    nome: "Yoga",
+    imagem: "./modalidades/yoga.jpg",
+  },
+  {
+    nome: "Pilates",
+    imagem: "./modalidades/pilates.jpg",
+  },
+  {
+    nome: "Spinning",
+    imagem: "./modalidades/spinning.jpg",
+  },
+  {
+    nome: "Corrida",
+    imagem: "./modalidades/corrida.jpg",
+  },
+  {
+    nome: "Power Jump",
+    imagem: "./modalidades/powerjump.jpg",
+  },
+  {
+    nome: "Zumba",
+    imagem: "./modalidades/zumba.jpg",
+  },
+];
