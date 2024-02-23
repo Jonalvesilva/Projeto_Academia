@@ -9,7 +9,7 @@ export default function Experiencia() {
           Por que treinar na <span className="font-bold">Academia do Jon?</span>
         </h2>
       </div>
-      <div className="bg-white py-16 flex items-center justify-center">
+      <div className="bg-white pt-16 pb-[120px] flex items-center justify-center">
         <div className="w-fit grid items-center justify-center gap-y-10 lg:grid-cols-2 lg:gap-x-10 2xl:grid-cols-4">
           {experienciaGym.map(({ desc, url }) => {
             return <ExperienciaCard desc={desc} url={url} key={url} />;

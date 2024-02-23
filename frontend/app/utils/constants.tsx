@@ -99,3 +99,16 @@ export const experienciaGym = [
     url: "./svg/run.svg",
   },
 ];
+
+export const depoimentos = [
+  "A academia do Jon é incrível! Os instrutores são super atenciosos e o ambiente é muito motivador.",
+  "Estou muito satisfeito com os resultados que obtive na academia do Jon. Sem dúvida, um excelente lugar para se exercitar.",
+  "O ambiente da academia do Jon é muito acolhedor e me sinto muito confortável treinando lá.",
+  "Os equipamentos da academia do Jon são de alta qualidade, o que torna os treinos ainda mais eficazes.",
+  "Os programas de treinamento personalizado da academia do Jon me ajudaram a atingir meus objetivos de forma rápida e segura.",
+  "Recomendo a academia do Jon para qualquer pessoa que esteja buscando um lugar onde se sentir bem enquanto se exercita.",
+  "A equipe da academia do Jon é fantástica! Sempre disposta a ajudar e motivar os alunos durante os treinos.",
+  "Desde que comecei a treinar na academia do Jon, minha saúde e disposição melhoraram significativamente. Estou muito feliz com os resultados.",
+  "A variedade de aulas oferecidas na academia do Jon é ótima! Nunca fico entediado e sempre encontro algo novo para me desafiar.",
+  "A estrutura da academia do Jon é impecável. Limpeza, organização e segurança são prioridades evidentes.",
+];
