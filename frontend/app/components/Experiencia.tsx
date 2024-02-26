@@ -3,7 +3,7 @@ import { experienciaGym } from "../utils/constants";
 
 export default function Experiencia() {
   return (
-    <section className="bg-green-900">
+    <section id="resultado" className="bg-green-900">
       <div className="h-[250px] max-w-screen-xl mx-auto flex items-end justify-center 2xl:justify-start pb-12">
         <h2 className="text-4xl text-white">
           Por que treinar na <span className="font-bold">Academia do Jon?</span>

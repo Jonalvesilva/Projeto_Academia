@@ -1,3 +1,5 @@
+"use client";
+import { Link, animateScroll as scroll } from "react-scroll";
 export default function Hero() {
   return (
     <section
@@ -12,9 +14,17 @@ export default function Hero() {
           Venha treinar na melhor e mais completa academia. Aqui você tem mais
           resultados
         </p>
-        <button className="p-2 text-xl text-white bg-green-700 rounded-lg animate__animated animate__fadeIn">
+        <Link
+          activeClass="active"
+          to="resultado"
+          spy={true}
+          smooth={true}
+          offset={-250}
+          duration={700}
+          className=" cursor-pointer p-2 text-xl text-white bg-green-700 rounded-lg animate__animated animate__fadeIn"
+        >
           Conheça mais
-        </button>
+        </Link>
       </div>
     </section>
   );

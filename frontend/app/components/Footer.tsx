@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer>
       <div className="h-[400px] flex flex-col max-w-screen-xl mx-auto lg:flex-row">
         <div className=" w-full h-[200px] lg:h-[400px] flex flex-col items-center justify-center">
           <div className="flex items-center justify-center gap-x-4">
-            <img src="./logo.png" className="h-20 w-20" />
+            <Image src={`/logo.png`} height={50} width={50} alt="logo" />
             <span className="text-3xl">Academia do Jon</span>
           </div>
           <p className="text-center text-xl mt-6">

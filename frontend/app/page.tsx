@@ -1,4 +1,5 @@
 import Aula from "./components/Aula";
+import { BottomMenu } from "./components/BottomMenu";
 import { Depoimentos } from "./components/Depoimentos";
 import Experiencia from "./components/Experiencia";
 import Hero from "./components/Hero";
@@ -14,6 +15,7 @@ export default function Home() {
       <Aula />
       <Experiencia />
       <Depoimentos />
+      <BottomMenu />
     </main>
   );
 }

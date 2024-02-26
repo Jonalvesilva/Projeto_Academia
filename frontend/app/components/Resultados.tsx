@@ -1,3 +1,6 @@
+"use client";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 export default function Resultados() {
   return (
     <section id="resultado" className="my-16">
@@ -10,14 +13,22 @@ export default function Resultados() {
             O melhor lugar para alcançar seus resultados
           </h1>
           <p className="text-center w-[90%] lg:text-start lg:w-full ">
-            Além de sermos a academia mais completa de Limeira, contamos com uma
-            equipe de professores altamente qualificados por um único objetivo:
-            Seu resultado.
+            Além de sermos a academia mais completa do Rio de Janeiro, contamos
+            com uma equipe de professores altamente qualificados por um único
+            objetivo: Seu resultado.
           </p>
           <div className="flex gap-x-6">
-            <button className="text-xl text-white bg-cyan-600 p-2">
-              Nossos planos
-            </button>
+            <Link
+              activeClass="active"
+              to="planos"
+              spy={true}
+              smooth={true}
+              offset={-10}
+              duration={700}
+              className="cursor-pointer text-xl text-white bg-cyan-900 p-2"
+            >
+              Nossos Planos
+            </Link>
             <button className="text-xl text-white bg-cyan-500 p-2">
               Marque uma aula grátis
             </button>
