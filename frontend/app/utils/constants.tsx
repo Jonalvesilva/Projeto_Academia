@@ -112,3 +112,26 @@ export const depoimentos = [
   "A variedade de aulas oferecidas na academia do Jon é ótima! Nunca fico entediado e sempre encontro algo novo para me desafiar.",
   "A estrutura da academia do Jon é impecável. Limpeza, organização e segurança são prioridades evidentes.",
 ];
+
+export const unidades = [
+  { name: "São Gonçalo", urlPhoto: "/unidades/1.jfif" },
+  { name: "Niteroi", urlPhoto: "/unidades/2.jfif" },
+  { name: "Caxias", urlPhoto: "/unidades/3.jpg" },
+  { name: "Rio de Janeiro", urlPhoto: "/unidades/4.jfif" },
+  { name: "Nilopólis", urlPhoto: "/unidades/5.jpg" },
+  { name: "Nova Iguaçu", urlPhoto: "/unidades/6.jpg" },
+];
+
+export const controlNumber = [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "Backspace",
+];
