@@ -14,6 +14,7 @@ export default function Planos() {
 
       if (isScrolledIntoView(card)) {
         card?.classList.remove("hidden");
+        card?.classList.add("grid");
         card?.classList.add("animate__backInUp");
       }
     });
@@ -42,7 +43,7 @@ export default function Planos() {
 
       <div
         id="planosCard"
-        className="grid grid-cols-1 2xl:grid-cols-3 gap-10 2xl:px-28 mt-20 lg:px-10 hidden animate__animated"
+        className="grid-cols-1 2xl:grid-cols-3 gap-10 2xl:px-28 mt-20 lg:px-10 animate__animated hidden"
       >
         <div className="flex flex-col bg-white rounded-xl overflow-hidden w-[50%] mx-auto 2xl:w-[400px]">
           <div className="text-center pt-10">
