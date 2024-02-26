@@ -11,7 +11,7 @@ type props = {
 export default function SideNavbar({ nav, setNav }: props) {
   return (
     <div className="bg-black/60 fixed top-0 left-0 z-10 w-full h-full">
-      <div className="fixed h-full w-[450px] bg-white rounded-r-md p-6 overflow-y-scroll">
+      <div className="fixed h-full w-[450px] bg-white rounded-r-md p-6 overflow-y-scroll animate__animated animate__slideInLeft">
         <div className="flex items-center justify-between">
           <div className="flex items-center justify-between gap-x-4">
             <Image src={`/logo.png`} height={30} width={50} alt="logo" />

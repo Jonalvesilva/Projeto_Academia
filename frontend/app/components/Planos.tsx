@@ -1,7 +1,30 @@
+"use client";
+import { useEffect, useState } from "react";
+import { isScrolledIntoView } from "../utils/functions";
+
 export default function Planos() {
+  useEffect(() => {
+    window.addEventListener("scroll", function () {
+      const text = document.getElementById("planosText");
+      const card = document.getElementById("planosCard");
+      if (isScrolledIntoView(text)) {
+        text?.classList.remove("hidden");
+        text?.classList.add("animate__fadeInLeft");
+      }
+
+      if (isScrolledIntoView(card)) {
+        card?.classList.remove("hidden");
+        card?.classList.add("animate__backInUp");
+      }
+    });
+  }, []);
+
   return (
-    <section className="py-20 relative z-50 bg-black/95 bg-cover">
-      <div className="container mx-auto ">
+    <section id="planos" className="py-20 relative z-50 bg-black/95 bg-cover">
+      <div
+        id="planosText"
+        className="container mx-auto hidden animate__animated"
+      >
         <div className="mx-auto max-w-2xl text-center">
           <span className="font-medium text-white tracking-widest">
             Nossos Preços
@@ -17,7 +40,10 @@ export default function Planos() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1  2xl:grid-cols-3 gap-10 2xl:px-28 mt-20 lg:px-10">
+      <div
+        id="planosCard"
+        className="grid grid-cols-1 2xl:grid-cols-3 gap-10 2xl:px-28 mt-20 lg:px-10 hidden animate__animated"
+      >
         <div className="flex flex-col bg-white rounded-xl overflow-hidden w-[50%] mx-auto 2xl:w-[400px]">
           <div className="text-center pt-10">
             <h5 className="text-xl font-semibold">Basic</h5>

@@ -1,6 +1,6 @@
 export default function Resultados() {
   return (
-    <section className="my-16">
+    <section id="resultado" className="my-16">
       <div
         className="w-full h-full flex flex-col items-center justify-center max-w-screen-xl mx-auto lg:flex-row lg:px-16 lg:gap-x-12
       lg:h-[400px]"
@@ -9,7 +9,7 @@ export default function Resultados() {
           <h1 className="text-2xl font-bold">
             O melhor lugar para alcançar seus resultados
           </h1>
-          <p className="text-center w-[90%] lg:text-start lg:w-full">
+          <p className="text-center w-[90%] lg:text-start lg:w-full ">
             Além de sermos a academia mais completa de Limeira, contamos com uma
             equipe de professores altamente qualificados por um único objetivo:
             Seu resultado.
