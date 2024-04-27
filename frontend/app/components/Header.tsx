@@ -17,7 +17,7 @@ export default function Header() {
   }, [nav]);
 
   return (
-    <header id="header" className="bg-emerald-900 h-16">
+    <header id="header" className="bg-emerald-900 h-16 fixed w-full z-[999]">
       <nav className="h-full flex px-4 xl:px-0 items-center justify-between max-w-screen-xl mx-auto">
         <div className="flex items-center gap-2 justify-center h-full">
           <Image src={`/logo.png`} height={30} width={65} alt="logo" />
