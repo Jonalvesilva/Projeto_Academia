@@ -57,17 +57,17 @@ export default function Planos() {
           <div className="p-10">
             <ul className="mb-10 text-center">
               <li className="my-4">
-                <h5 className="font-medium dark:text-gray-300">
+                <h5 className="font-medium text-gray-500">
                   Área de musculação e aeróbicos
                 </h5>
               </li>
               <li>
-                <h5 className="font-medium dark:text-gray-300 line-through ">
+                <h5 className="font-medium text-gray-500 line-through ">
                   Lutas e Aulas de Dança
                 </h5>
               </li>
               <li className="my-4">
-                <h5 className="font-medium dark:text-gray-300 line-through">
+                <h5 className="font-medium text-gray-500 line-through">
                   Leve amigos para treinar com você
                 </h5>
               </li>
@@ -94,17 +94,17 @@ export default function Planos() {
           <div className="p-10">
             <ul className="mb-10 text-center">
               <li className="my-4">
-                <h5 className="font-medium dark:text-gray-300">
+                <h5 className="font-medium text-gray-500">
                   Área de musculação e aeróbicos
                 </h5>
               </li>
               <li>
-                <h5 className="font-medium dark:text-gray-300">
+                <h5 className="font-medium text-gray-500">
                   Lutas e Aulas de Dança
                 </h5>
               </li>
               <li className="my-4">
-                <h5 className="font-medium dark:text-gray-300 line-through">
+                <h5 className="font-medium text-gray-500 line-through">
                   Leve amigos para treinar com você
                 </h5>
               </li>
@@ -131,17 +131,17 @@ export default function Planos() {
           <div className="p-10">
             <ul className="mb-10 text-center">
               <li className="my-4">
-                <h5 className="font-medium dark:text-gray-300">
+                <h5 className="font-medium text-gray-500">
                   Área de musculação e aeróbicos
                 </h5>
               </li>
               <li>
-                <h5 className="font-medium dark:text-gray-300">
+                <h5 className="font-medium text-gray-500">
                   Lutas e Aulas de Dança
                 </h5>
               </li>
               <li className="my-4">
-                <h5 className="font-medium dark:text-gray-300">
+                <h5 className="font-medium text-gray-500">
                   Leve amigos para treinar com você
                 </h5>
               </li>
