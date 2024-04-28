@@ -22,7 +22,7 @@ export function BottomMenu() {
       {status ? (
         <Link
           activeClass="active"
-          to="header"
+          to="hero"
           spy={true}
           smooth={true}
           offset={-250}

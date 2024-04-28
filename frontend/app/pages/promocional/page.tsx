@@ -14,7 +14,7 @@ type User = {
 
 export default function Promocional() {
   return (
-    <section className="border border-b-2 py-12">
+    <section className="border border-b-2 pt-[100px]">
       <div className="text-center text-3xl pb-14">
         <h2>Marque aqui sua aula grátis</h2>
       </div>

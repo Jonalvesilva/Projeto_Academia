@@ -3,28 +3,14 @@ import { useEffect, useState } from "react";
 import { isScrolledIntoView } from "../utils/functions";
 
 export default function Planos() {
-  useEffect(() => {
-    window.addEventListener("scroll", function () {
-      const text = document.getElementById("planosText");
-      const card = document.getElementById("planosCard");
-      if (isScrolledIntoView(text)) {
-        text?.classList.remove("hidden");
-        text?.classList.add("animate__fadeInLeft");
-      }
-
-      if (isScrolledIntoView(card)) {
-        card?.classList.remove("hidden");
-        card?.classList.add("grid");
-        card?.classList.add("animate__backInUp");
-      }
-    });
-  }, []);
-
   return (
     <section id="planos" className="py-20 relative z-50 bg-black/95 bg-cover">
       <div
+        data-aos="fade-up-right"
+        data-aos-once="true"
+        data-aos-duration="800"
         id="planosText"
-        className="container mx-auto hidden animate__animated"
+        className="container mx-auto"
       >
         <div className="mx-auto max-w-2xl text-center">
           <span className="font-medium text-white tracking-widest">
@@ -43,9 +29,12 @@ export default function Planos() {
 
       <div
         id="planosCard"
-        className="grid-cols-1 2xl:grid-cols-3 gap-10 2xl:px-28 mt-20 lg:px-10 animate__animated hidden"
+        className="grid 2xl:grid-cols-3 gap-10 2xl:px-28 mt-20 lg:px-10"
+        data-aos="fade-up-right"
+        data-aos-once="true"
+        data-aos-duration="800"
       >
-        <div className="flex flex-col bg-white rounded-xl overflow-hidden w-[50%] mx-auto 2xl:w-[400px]">
+        <div className="flex flex-col bg-white rounded-xl overflow-hidden w-[90%] min-[550px]:w-[500px] mx-auto 2xl:w-[400px]">
           <div className="text-center pt-10">
             <h5 className="text-xl font-semibold">Basic</h5>
             <h2 className="text-5xl mt-8 mb-3 items-center align-middle">
@@ -82,7 +71,7 @@ export default function Planos() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col bg-white rounded-xl overflow-hidden w-[50%] mx-auto 2xl:w-[400px]">
+        <div className="flex flex-col bg-white rounded-xl overflow-hidden w-[90%] min-[550px]:w-[500px] mx-auto 2xl:w-[400px]">
           <div className="text-center pt-10">
             <h5 className="text-xl font-semibold">Advance</h5>
             <h2 className="text-5xl mt-8 mb-3 items-center align-middle">
@@ -119,7 +108,7 @@ export default function Planos() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col bg-white rounded-xl overflow-hidden w-[50%] mx-auto 2xl:w-[400px]">
+        <div className="flex flex-col bg-white rounded-xl overflow-hidden w-[90%] min-[550px]:w-[500px] mx-auto 2xl:w-[400px]">
           <div className="text-center pt-10">
             <h5 className="text-xl font-semibold">Monster</h5>
             <h2 className="text-5xl mt-8 mb-3 items-center align-middle">

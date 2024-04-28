@@ -8,7 +8,7 @@ import Resultados from "./components/Resultados";
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-full">
       <Hero />
       <Resultados />
       <Planos />

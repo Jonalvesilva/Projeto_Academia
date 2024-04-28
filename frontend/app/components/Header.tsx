@@ -19,12 +19,14 @@ export default function Header() {
   return (
     <header
       id="header"
-      className="bg-emerald-900 h-16 fixed w-full z-[999] mt-[-64px]"
+      className="bg-emerald-900 h-16 fixed w-full z-[999] min-w-[320px]"
     >
       <nav className="h-full flex px-4 xl:px-0 items-center justify-between max-w-screen-xl mx-auto">
         <div className="flex items-center gap-2 justify-center h-full">
           <Image src={`/logo.png`} height={30} width={65} alt="logo" />
-          <span className="text-white text-3xl">Academia do Jon</span>
+          <span className="text-white text-xl sm:text-2xl md:text-3xl">
+            Academia do Jon
+          </span>
         </div>
         <div className="flex gap-10 items-center">
           <ul className="hidden lg:flex md:gap-10">
@@ -45,7 +47,7 @@ export default function Header() {
           />
         </div>
       </nav>
-      {nav && <SideNavbar nav={nav} setNav={setNav} />}
+      {<SideNavbar nav={nav} setNav={setNav} />}
     </header>
   );
 }
