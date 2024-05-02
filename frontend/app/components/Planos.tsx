@@ -1,6 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
-import { isScrolledIntoView } from "../utils/functions";
+import Link from "next/link";
 
 export default function Planos() {
   return (
@@ -62,12 +61,12 @@ export default function Planos() {
               </li>
             </ul>
             <div className="flex justify-center">
-              <a
-                href="#"
+              <Link
+                href="/pages/planos/basic"
                 className="py-3 px-6 font-medium border rounded-md border-green-500 text-green-600 hover:bg-green-500 hover:text-white transition-all duration-500"
               >
                 Escolher Basic
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -99,12 +98,12 @@ export default function Planos() {
               </li>
             </ul>
             <div className="flex justify-center">
-              <a
-                href="#"
+              <Link
+                href="/pages/planos/advance"
                 className="py-3 px-6 font-medium border rounded-md border-green-500 text-green-600 hover:bg-green-500 hover:text-white transition-all duration-500"
               >
                 Escolher Advance
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -136,12 +135,12 @@ export default function Planos() {
               </li>
             </ul>
             <div className="flex justify-center">
-              <a
-                href="#"
+              <Link
+                href="/pages/planos/monster"
                 className="py-3 px-6 font-medium border rounded-md border-green-500 text-green-600 hover:bg-green-500 hover:text-white transition-all duration-500"
               >
                 Escolher Monster
-              </a>
+              </Link>
             </div>
           </div>
         </div>
