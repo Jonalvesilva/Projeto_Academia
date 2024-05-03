@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "imask": "^7.6.0",
