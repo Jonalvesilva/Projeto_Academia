@@ -48,10 +48,10 @@ export const UserSchema = z.object({
   sobrenome: z
     .string()
     .min(3, { message: "Sobrenome deve conter pelo menos 3 caracteres" }),
-  cpf: z.string().min(11, { message: "Cpf deve conter no minimo 11 digitos" }),
+  cpf: z.string().min(14, { message: "Cpf deve conter no minimo 11 digitos" }),
   telefone: z
     .string()
-    .min(10, { message: "Telefone deve no minimo 10 digitos" }),
+    .min(14, { message: "Telefone deve no minimo 10 digitos" }),
   unidade: z.string(),
   data: dataSchema,
 });
