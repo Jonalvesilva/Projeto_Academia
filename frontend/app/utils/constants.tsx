@@ -13,14 +13,14 @@ export const linksHeader = [
     name: "Espaço do cliente",
   },
   {
-    url: "",
+    url: "/pages/academia",
     name: "Academias",
   },
 ];
 
 export const linksSideNavbar = [
   {
-    url: "",
+    url: "/",
     name: "Home",
     icon: <FaHome size={30} />,
   },
@@ -35,12 +35,12 @@ export const linksSideNavbar = [
     icon: <GiMuscleUp size={30} />,
   },
   {
-    url: "",
+    url: "/pages/academia",
     name: "Academias",
     icon: <CgGym size={30} />,
   },
   {
-    url: "",
+    url: "/pages/sobre",
     name: "Sobre Nós",
     icon: <SiOpenaigym size={30} />,
   },
