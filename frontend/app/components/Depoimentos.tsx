@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 export function Depoimentos() {
   return (
     <section
-      style={{ backgroundImage: "url('./planos.jpg')" }}
+      style={{ backgroundImage: "url('/planos.jpg')" }}
       className="min-w-[320px] flex h-[500px] bg-cover"
     >
       <div className="flex max-w-screen-lg items-center justify-center flex-col w-full lg:mx-auto gap-y-6">
