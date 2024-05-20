@@ -19,7 +19,7 @@ export default function Header() {
   return (
     <header
       id="header"
-      className="bg-emerald-900 h-16 fixed w-full z-[999] min-w-[320px]"
+      className="bg-emerald-900 h-16 fixed top-0 left-0 w-full z-[999] min-w-[320px]"
     >
       <nav className="h-full flex px-4 xl:px-0 items-center justify-between max-w-screen-xl mx-auto">
         <div className="flex items-center gap-2 justify-center h-full">
