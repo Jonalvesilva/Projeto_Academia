@@ -5,42 +5,42 @@ import { SiOpenaigym } from "react-icons/si";
 
 export const linksHeader = [
   {
-    url: "",
+    url: "pages/franqueado",
     name: "Seja um franqueado",
   },
   {
-    url: "",
+    url: "pages/cliente",
     name: "Espaço do cliente",
   },
   {
-    url: "",
+    url: "pages/academia",
     name: "Academias",
   },
 ];
 
 export const linksSideNavbar = [
   {
-    url: "",
+    url: "/",
     name: "Home",
     icon: <FaHome size={30} />,
   },
   {
-    url: "",
+    url: "pages/franqueado",
     name: "Seja um franqueado",
     icon: <FaAtlassian size={30} />,
   },
   {
-    url: "",
+    url: "pages/cliente",
     name: "Espaço do cliente",
     icon: <GiMuscleUp size={30} />,
   },
   {
-    url: "",
+    url: "/pages/academia",
     name: "Academias",
     icon: <CgGym size={30} />,
   },
   {
-    url: "",
+    url: "/pages/sobre",
     name: "Sobre Nós",
     icon: <SiOpenaigym size={30} />,
   },
