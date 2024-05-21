@@ -17,7 +17,7 @@ export default function Promocional() {
   const onSubmit: SubmitHandler<User> = (data) => {};
 
   return (
-    <section className="border border-b-2 pt-[120px]">
+    <section className="w-full border border-b-2 pt-[120px]">
       <div className="text-center text-3xl pb-14">
         <h2>Marque aqui sua aula grátis</h2>
       </div>
