@@ -2,6 +2,7 @@ import { IoCloseCircle } from "react-icons/io5";
 import { linksSideNavbar } from "../utils/constants";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect } from "react";
 
 type props = {
@@ -47,13 +48,15 @@ export default function SideNavbar({ nav, setNav }: props) {
           <ul className="flex flex-col">
             {linksSideNavbar.map((data) => {
               return (
-                <li
+                <Link
+                  href={data.url}
                   key={data.name}
+                  onClick={() => setNav(!nav)}
                   className="text-lg min-[400px]:text-2xl text-start flex gap-x-6 border-t-2 border-gray-100 py-5 cursor-pointer hover:bg-gray-200"
                 >
                   {data.icon}
                   {data.name}
-                </li>
+                </Link>
               );
             })}
           </ul>

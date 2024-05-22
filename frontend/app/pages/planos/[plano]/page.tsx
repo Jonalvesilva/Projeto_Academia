@@ -10,8 +10,8 @@ import { FaSpinner } from "react-icons/fa";
 
 export default function Plano() {
   useEffect(() => {
-    document.getElementsByTagName("header")[0].style.display = "none";
-    document.getElementsByTagName("footer")[0].style.display = "none";
+    document.getElementsByTagName("header")[0].classList.add("hidden");
+    document.getElementsByTagName("footer")[0].classList.add("hidden");
   }, []);
 
   useCreditCard();

@@ -3,7 +3,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 export default function Hero() {
   return (
     <section
-      style={{ backgroundImage: "url('/hero.jpg')" }}
+      style={{ backgroundImage: "url(/hero.jpg)" }}
       className="h-[500px] md:h-[600px] bg-cover bg-center"
       id="hero"
     >

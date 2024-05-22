@@ -1,4 +1,4 @@
-<h1>Projeto AdotPets</h1>
+<h1>Projeto Academia</h1>
 <p>Projeto Site de uma academia ficticia chamada Academia do Jon.</p>
 <h2>Status</h2>
 <img src="https://img.shields.io/badge/Em desenvolvimento-FFF019"/>
