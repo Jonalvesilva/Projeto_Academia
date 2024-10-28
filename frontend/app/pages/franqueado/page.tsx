@@ -98,7 +98,7 @@ export default function Franqueado() {
   };
 
   return (
-    <section className="border border-b-2 pt-[120px]">
+    <section className="w-full border border-b-2 mt-[60px] py-10">
       <div className="text-center text-3xl pb-14">
         <h2>Seja Um Franqueado</h2>
       </div>
@@ -242,7 +242,7 @@ export default function Franqueado() {
               </div>
             </div>
           </div>
-          <div className="w-full sm:w-[60%] mx-auto pt-6 pb-16">
+          <div className="w-full sm:w-[60%] mx-auto pt-6 ">
             <button className="rounded-md bg-green-600 py-3 w-full text-center text-base font-semibold text-white outline-none">
               Agendar Reunião
             </button>
