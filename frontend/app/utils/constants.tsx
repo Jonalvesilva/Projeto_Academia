@@ -9,7 +9,7 @@ export const linksHeader = [
     name: "Seja um franqueado",
   },
   {
-    url: "/pages/cliente",
+    url: "#",
     name: "Espaço do cliente",
   },
   {
@@ -30,7 +30,7 @@ export const linksSideNavbar = [
     icon: <FaAtlassian size={30} />,
   },
   {
-    url: "/pages/cliente",
+    url: "#",
     name: "Espaço do cliente",
     icon: <GiMuscleUp size={30} />,
   },
